@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Harmandir Sahib Live Kirtan</title>
+
+  <!-- Mobile viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description"
+        content="Watch and listen to 24×7 live Gurbani and Kirtan from Sri Harmandir Sahib and other worldwide Gurdwaras." />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+
+<section class="video-container">
+  <div id="thumbnail" class="thumbnail"></div>
+
+  <iframe
+    id="player"
+    allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+
+  <button id="muteBtn" class="mute-btn">
+    <img src="/mute.png" alt="Unmute" />
+  </button>
+
+  <button id="downloadBtn" class="download-btn">
+    <img src="/download.png" alt="Download" />
+  </button>
+
+  <div class="loader" id="loader"></div>
+</section>
+
+<!-- 📜 DETAILS (ON SCROLL) -->
+<section class="details">
+
+  <h1>Harmandir Sahib Live Kirtan</h1>
+  <p class="subtitle">
+    24×7 Live Gurbani from Sri Harmandir Sahib
+  </p>
+
+  <p class="desc">
+    Harmandir Sahib Live Kirtan is a spiritual app where you can
+    listen to and watch 24×7 live Gurbani and Kirtan from
+    Sri Harmandir Sahib (Golden Temple) and other worldwide Gurdwaras.
+  </p>
+
+  <p class="desc">
+    Through this app, stay connected with Amrit Vela Kirtan,
+    evening Rehras Sahib, daily Hukamnama Sahib, and live Gurbani —
+    anytime, anywhere.
+  </p>
+
+  <div class="features">
+    <div>🙏 24×7 Live Gurbani and Kirtan</div>
+    <div>📖 Daily Hukamnama Sahib & katha video updates</div>
+    <div>🎵 Amrit Vela and evening live Kirtan radio</div>
+    <div>📺 Audio and live video streaming</div>
+    <div>📺 Gurbani shorts explore and share with friends & family</div>
+  </div>
+
+  <div class="cta">
+    <button class="primary app-open-btn" onclick="openInApp()">
+      <img src="logo.png" alt="Harmandir Sahib Live Kirtan" />
+      <span>Open App</span>
+    </button>
+
+    <a
+      class="playstore"
+      href="https://play.google.com/store/apps/details?id=com.BHG.harmandirsahib"
+      target="_blank"
+    >
+      <img
+        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+        alt="Get it on Google Play"
+      />
+    </a>
+  </div>
+
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
