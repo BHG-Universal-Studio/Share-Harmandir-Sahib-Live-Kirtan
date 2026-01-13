@@ -78,7 +78,7 @@ function openInPlayStore() {
 function openInApp() {
   if (!videoId) return;
   
-  const appUrl = `bhaktibhajan://video/${videoId}`;
+  const appUrl = `harmandirsahib://video/${videoId}`;
   
   window.location.href = appUrl;
 
@@ -88,3 +88,4 @@ function openInApp() {
   
 
 }
+
