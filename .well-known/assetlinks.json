@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.BHG.harmandirsahib",
+      "sha256_cert_fingerprints": [
+        "BD:11:93:59:91:BD:C6:F0:38:32:92:7E:88:B2:C4:D4:6F:2A:D2:DC:40:32:D3:32:26:B7:9F:E6:97:BB:89:F8"
+      ]
+    }
+  }
+]
