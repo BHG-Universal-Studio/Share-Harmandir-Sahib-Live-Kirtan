@@ -2,6 +2,7 @@
   "version": 1,
   "include": ["/*"],
   "exclude": [
+    "/.well-known/*",
     "/styles.css",
     "/app.js",
     "/logo.png",
@@ -9,3 +10,4 @@
     "/download.png"
   ]
 }
+
